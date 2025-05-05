@@ -11,7 +11,7 @@ We divided the project into 4 tasks for model training (Link to each notebooks p
 
 ## Introduction
 
-This project aims to tackle the challenge of improving real-time lightning storm forecasting using machine learning (ML) techniques. With the increasing unpredictability of weather patterns due to climate change, accurate forecasting of lightning storms is critical to protect lives, infrastructure, and the environment.
+This project aims to tackle the challenge of improving real-time lightning storm forecasting using deep learning techniques. With the increasing unpredictability of weather patterns due to climate change, accurate forecasting of lightning storms is critical to protect lives, infrastructure, and the environment.
 
 Each year, lightning storms result in significant damage, including wildfires, power outages, and disruptions to air travel. Traditional forecasting methods struggle to provide timely and precise predictions, often leaving little time for emergency response. By leveraging advanced ML models, we seek to enhance the ability to predict the evolution of storms, enabling better preparedness and more effective responses in real-time.
 
@@ -20,13 +20,7 @@ Through this project, our goal is to design a predictive system that can accurat
 
 ## Additional Information
 
-[Project introduction slides](https://docs.google.com/presentation/d/1TfCMbso8uVv_xyymKZ02XQw0zAMt9ixM/edit?usp=sharing&ouid=115479103401816059872&rtpof=true&sd=true)
-
-[Colab notebook: Example data downloading and exploration](https://colab.research.google.com/drive/1A5o3X2BgpYU-h94dOCpBOqhE64w6AuO9?usp=sharing)
-
-[Colab notebook: Suprise storms - description and submission instructions](https://colab.research.google.com/drive/18dCAJNVnErHZVFSztM-EJnwiVH-Eb3D3?usp=sharing)
-
-The dataset given consists of 800 example storm events, each accompanied by four satellite imagery types and a corresponding time series of lightning flashes. The available satellite images for each event include:
+The dataset used consists of 800 example storm events, each accompanied by four satellite imagery types and a corresponding time series of lightning flashes. The available satellite images for each event include:
 
 - Visible ('vis') – Standard optical imagery of the storm system.
 - Water Vapor Infrared ('ir069') – Captures moisture content in the atmosphere.
