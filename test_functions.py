@@ -1,12 +1,12 @@
 import unittest
 import numpy as np
 import torch
-from SallyPackage import (
+from DataProcessing import (
     normalise,
 )
-from SallyPackage.models import YourModelClass
+from DataProcessing.models import YourModelClass
 
-class TestSallyPackage(unittest.TestCase):
+class TestPackage(unittest.TestCase):
     def setUp(self):
         """
         Set up test fixtures. This method is called before each test.
