@@ -1,0 +1,16 @@
+name: storm-forcasting-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10  # Specify the Python version you are using
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pytest
+  - jupyterlab
+  - pip
+  - pip:
+      - -r requirements.txt  # Include additional dependencies from requirements.txt

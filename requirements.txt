@@ -1,0 +1,17 @@
+numpy
+pandas
+h5py
+torch
+matplotlib
+seaborn
+Pillow
+geopandas
+scipy
+IPython
+notebook
+torchvision
+torchtext
+torchaudio
+opencv-python
+tqdm
+pytest
